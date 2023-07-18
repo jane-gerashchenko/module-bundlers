@@ -1,0 +1,2 @@
+Snowpack is a more interesting option then Webpack.
+It takes different approach handling modules in development. Instead of recompiling on every change it builds all of the dependencies once and then ships them dirrectly to the browser. Which means that your changes will be reflected on the browser instantly. Snowpack needs to rebuild just one file instead of going through the entire dependency graph
